@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Smart Stop</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="">
+  <p>Name: <input type="text" ng-model="name"></p>
+  <p ng-bind="name"></p>
+  <google-maps
+    lat="51.507351"
+    lng="-0.127758"
+    apikey="AIzaSyBPKBzU93n7RU5zZ4Vapq4u_H4_Ll3JV0I"
+  </google-maps>
+</div>
+
+</body>
+
+</html>
